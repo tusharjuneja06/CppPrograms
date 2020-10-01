@@ -9,6 +9,7 @@ int main()
 
     ptr=new int[size];  //dynamically allocating memory
     cout<<"Enter values to be stored in the array\n";
+    
     for(int i=0;i<size;i++)
     {
         cin>>ptr[i];
@@ -18,5 +19,6 @@ int main()
     {
         cout<<ptr[i]<<" ";
     }
+    
     return 0;
 }
