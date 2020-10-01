@@ -50,9 +50,6 @@ int main()
     
     obj.createList();
     obj.displayList();
-    cout<<"Before Inserting\n";
-    // obj.after();
-    obj.before();
     return 0;
 }
 
